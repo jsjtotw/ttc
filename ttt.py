@@ -5,6 +5,7 @@ arr = np.char.array([["-","-","-"],["-","-","-"],["-","-","-"]])
 print(arr)
 def choi(ele):
   try:
+    print(f"{ele}'s turn")
     cho = int(input("Choose which square to choose (1-9):"))
     if 1 <= cho <= 9:
       row = (cho - 1) // 3
